@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --footer-text: #ffffff;
+  --hover-color: #2196f3;
+  --background-color: #2f303a;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--text-color);
+}
+.header-list,
+.header-link {
+  list-style: none;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-color);
+}
+/* main-hero*/
+
+.hero {
+  background-color: var(--background-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #757575;
+}
+/* features*/
+.features {
+  list-style: none;
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+.features .text {
+  color: var(--text-color);
+}
+
+/* portfolio */
+
+.portfolio {
+  list-style: none;
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+/* employees */
+
+.employees {
+  list-style: none;
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+.employees .text {
+  color: var(--text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--background-color);
+}
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+.footer-list,
+.footer-link {
+  list-style: none;
+  color: var(--footer-text);
+  text-decoration: none;
+}
