@@ -29,6 +29,10 @@ body {
 .header-link:focus {
   color: var(--hover-color);
 }
+
+.header-nav .header-link.current {
+  color: var(--hover-color);
+}
 /* main-hero*/
 
 .hero {
