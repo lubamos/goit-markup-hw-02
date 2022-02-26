@@ -169,7 +169,7 @@ button {
   background-color: var(--hover-color);
   color: #ffffff;
 }
-.buttons .pointer {
+.pointer {
   cursor: pointer;
 }
 .portfolio .title {
