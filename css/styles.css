@@ -4,6 +4,7 @@
   --footer-text: #ffffff;
   --hover-color: #2196f3;
   --background-color: #2f303a;
+  --portfolio-buttons: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -18,7 +19,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-
+.logo .web {
+  color: var(--hover-color);
+}
 .logo:hover,
 .logo:focus {
   color: var(--text-color);
@@ -40,7 +43,9 @@ body {
   color: var(--hover-color);
 }
 
-.header-nav .header-link.current {
+.header-link-current {
+  list-style: none;
+  text-decoration: none;
   color: var(--hover-color);
 }
 /* main-hero*/
@@ -94,9 +99,8 @@ button {
 
 .features .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 }
 
 /* portfolio */
@@ -107,7 +111,7 @@ button {
 .section .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
 }
 /* employees */
@@ -128,7 +132,6 @@ button {
 }
 .employees .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -149,18 +152,26 @@ button {
   list-style: none;
   color: var(--footer-text);
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 /* Portfolio */
 
-.buttons .btn-group {
+.pointer {
+  background-color: var(--portfolio-buttons);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63px;
+  line-height: 1.63;
+  font-family: inherit;
 }
-
+.pointer:hover,
+.pointer:focus {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
+.buttons .pointer {
+  cursor: pointer;
+}
 .portfolio .title {
   font-weight: 700;
   font-size: 18px;
