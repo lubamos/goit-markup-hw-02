@@ -163,15 +163,14 @@ button {
   font-size: 16px;
   line-height: 1.63;
   font-family: inherit;
+  cursor: pointer;
 }
 .pointer:hover,
 .pointer:focus {
   background-color: var(--hover-color);
   color: #ffffff;
 }
-.pointer {
-  cursor: pointer;
-}
+
 .portfolio .title {
   font-weight: 700;
   font-size: 18px;
