@@ -1,6 +1,5 @@
 :root {
   --primary-text-color: #212121;
-  --title-text-color: #212121;
   --text-color: #757575;
   --footer-text: #ffffff;
   --hover-color: #2196f3;
@@ -9,20 +8,31 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo {
-  color: #2196f3;
   text-decoration: none;
+  color: var(--primary-text-color);
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
+
 .logo:hover,
 .logo:focus {
   color: var(--text-color);
 }
+
 .header-list,
 .header-link {
+  color: #212121;
   list-style: none;
-  color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -40,10 +50,29 @@ body {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+button {
+  font-family: inherit;
+}
+
 .hero-btn {
   background-color: #2196f3;
   color: #ffffff;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -54,10 +83,20 @@ body {
   list-style: none;
 }
 .section .section-title {
-  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
 }
+.features .title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
 .features .text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
 }
 
 /* portfolio */
@@ -66,7 +105,10 @@ body {
   list-style: none;
 }
 .section .section-title {
-  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
 }
 /* employees */
 
@@ -74,10 +116,21 @@ body {
   list-style: none;
 }
 .section .section-title {
-  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+}
+.employees .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .employees .text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* footer */
@@ -86,12 +139,17 @@ body {
   background-color: var(--background-color);
 }
 .logo {
-  color: #2196f3;
   text-decoration: none;
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .footer-list,
 .footer-link {
   list-style: none;
   color: var(--footer-text);
   text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
