@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--header-->
@@ -23,10 +23,10 @@
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">
-            <a href="./index.html" class="header-link-current">Студия</a>
+            <a href="./index.html" class="header-link">Студия</a>
           </li>
           <li class="header-item">
-            <a href="./portfolio.html" class="header-link">Портфолио</a>
+            <a href="./portfolio.html" class="header-link-current">Портфолио</a>
           </li>
           <li class="header-item">
             <a href="Контакты" class="header-link">Контакты</a>
@@ -48,23 +48,19 @@
     </header>
 
     <main>
-      <h1 hidden class="main-title">Портфолио</h1>
-      <!--buttons-->
-
-      <section class="buttons">
-        <h2 hidden class="cursor">Кнопки</h2>
-        <div class="cursors">
-          <button class="pointer" type="button">Все</button>
-          <button class="pointer" type="button">Веб-сайты</button>
-          <button class="pointer" type="button">Приложения</button>
-          <button class="pointer" type="button">Дизайн</button>
-          <button class="pointer" type="button">Маркетинг</button>
-        </div>
-      </section>
+      <section class="section-portfolio">
+        <h1 hidden class="main-title">Портфолио</h1>
+        <!--buttons-->
+<ul class="menu-center">
+<li class="item"><button class="pointer" type="button">Все</button></li>
+<li class="item"><button class="pointer" type="button">Веб-сайты</button></li>
+<li class="item"><button class="pointer" type="button">Приложения</button></li>
+<li class="item"><button class="pointer" type="button">Дизайн</button></li>
+<li class="item"><button class="pointer" type="button">Маркетинг</button></li>
+</ul>
+        </section>
 
       <!--portfolio-->
-      <section class="section">
-        <h2 hidden class="portfolio">Портфолио</h2>
         <ul class="portfolio">
           <li>
             <a href="" class="header-link">
@@ -73,7 +69,7 @@
                 alt="фотография1"
                 width="370"
               />
-              <h3 class="title">Технокряк</h3>
+              <h2 class="title">Технокряк</h2>
               <p class="text">Веб-сайт</p>
             </a>
           </li>
@@ -84,8 +80,8 @@
                 alt="фотография2"
                 width="370"
               />
-              <h3 class="title" lang="en">Постер New Orlean vs Golden Star</h3>
-              <p class="text">Дизайн</p>
+              <h2 class="title" >Постер <span lang="en"> New Orlean vs Golden Star</span></h2>
+              <p class="text">Дизайн</p>  
             </a>
           </li>
           <li>
@@ -95,7 +91,7 @@
                 alt="фотография3"
                 width="370"
               />
-              <h3 class="title" lang="en">Ресторан Seafood</h3>
+              <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
               <p class="text">Приложение</p>
             </a>
           </li>
@@ -106,7 +102,7 @@
                 alt="фотография4"
                 width="370"
               />
-              <h3 class="title" lang="en">Проект Prime</h3>
+              <h2 class="title" >Проект <span lang="en">Prime</span></h2>
               <p class="text">Маркетинг</p>
             </a>
           </li>
@@ -117,7 +113,7 @@
                 alt="фотография5"
                 width="370"
               />
-              <h3 class="title" lang="en">Проект Boxes</h3>
+              <h2 class="title" >Проект <span lang="en">Boxes</span> </h2>
               <p class="text">Приложение</p>
             </a>
           </li>
@@ -128,7 +124,7 @@
                 alt="фотография6"
                 width="370"
               />
-              <h3 class="title" lang="en">Inspiration has no Borders</h3>
+              <h2 class="title" lang="en">Inspiration has no Borders</h2>
               <p class="text">Веб-сайт</p>
             </a>
           </li>
@@ -139,7 +135,7 @@
                 alt="фотография4"
                 width="370"
               />
-              <h3 class="title" lang="en">Издание Limited Edition</h3>
+              <h2 class="title" >Издание <span lang="en">Limited Edition</span></h2>
               <p class="text">Дизайн</p>
             </a>
           </li>
@@ -150,7 +146,7 @@
                 alt="фотография8"
                 width="370"
               />
-              <h3 class="title" lang="en">Проект LAB</h3>
+              <h2 class="title" >Проект<span lang="en">LAB</span> </h2>
               <p class="text">Маркетинг</p>
             </a>
           </li>
@@ -161,7 +157,7 @@
                 alt="фотография9"
                 width="370"
               />
-              <h3 class="title" lang="en">Growing Business</h3>
+              <h2 class="title" lang="en">Growing Business</h2>
               <p class="text">Приложение</p>
             </a>
           </li>

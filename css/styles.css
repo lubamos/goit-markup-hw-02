@@ -85,8 +85,8 @@ button {
 }
 
 .hero-btn {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  color: var(--footer-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -127,7 +127,7 @@ button {
 .portfolio {
   list-style: none;
 }
-.section .section-title {
+.section-portfolio .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -191,6 +191,14 @@ button {
   line-height: 1.71;
 }
 /* Portfolio */
+
+.menu-center {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .pointer {
   background-color: var(--portfolio-buttons);
