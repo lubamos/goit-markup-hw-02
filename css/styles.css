@@ -2,6 +2,7 @@
   --primary-text-color: #212121;
   --text-color: #757575;
   --footer-text: #ffffff;
+  --body-background-color: #fff;
   --hover-color: #2196f3;
   --background-color: #2f303a;
   --portfolio-buttons: #f5f4fa;
@@ -9,10 +10,10 @@
   --hero-button-fover: #188ce8;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--body-background-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
-  letter-spacing: 0.03em;
+  font-size: 16px;
 }
 .logo-header {
   text-decoration: none;
@@ -41,9 +42,14 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link-cont:hover,
+.header-link-cont:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--hover-color);
 }
+
 .header-list-cont,
 .header-link-cont {
   color: var(--text-color);
@@ -53,11 +59,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.header-link-cont:hover,
-.header-link-cont:focus {
-  color: var(--hover-color);
 }
 
 .header-link-current {
@@ -80,7 +81,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-button {
+.button {
   font-family: inherit;
 }
 
@@ -164,7 +165,7 @@ button {
 .logo-footer {
   text-decoration: none;
   font-family: raleway, sans-serif;
-  color: #ffffff;
+  color: var(--body-background-color);
   font-size: 26px;
   line-height: 1.19;
 }
@@ -180,6 +181,7 @@ button {
   color: var(--footer-text);
   text-decoration: none;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
 }
 
@@ -189,9 +191,9 @@ button {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* Portfolio */
-
 .menu-center {
   list-style: none;
   text-decoration: none;
@@ -202,6 +204,15 @@ button {
 
 .pointer {
   background-color: var(--portfolio-buttons);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  font-family: inherit;
+  cursor: pointer;
+}
+.pointer-current-btn {
+  background-color: var(--hero-button-fover);
+  color: var(--body-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
