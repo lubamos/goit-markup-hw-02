@@ -8,6 +8,7 @@
   --portfolio-buttons: #f5f4fa;
   --footer-text-transp: rgba(255, 255, 255, 0.6);
   --hero-button-fover: #188ce8;
+  --team-background: #f5f4fa;
 }
 body {
   background-color: var(--body-background-color);
@@ -106,10 +107,7 @@ body {
 .features {
   list-style: none;
 }
-.section .section-title {
-  font-size: 14px;
-  line-height: 1.14;
-}
+
 .features .title {
   font-weight: 700;
   font-size: 16px;
@@ -122,6 +120,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+.section-employees {
+  background-color: var(--team-background);
+}
+.section .section-title {
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
 
 /* portfolio */
 
@@ -139,11 +147,13 @@ body {
 .employees {
   list-style: none;
 }
-.section .section-title {
+.section-employees .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17px;
   text-align: center;
+}
+
 }
 .employees .title {
   font-weight: 500;
